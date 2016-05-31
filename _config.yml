@@ -1,0 +1,17 @@
+# Setup
+title:        Denis's notebook
+tagline:      the one who don't write notes are doomed to write them multiple times
+baseurl:      ""
+paginate:     1
+
+# About/contact
+author:
+  name:       Denis Besic
+  url:        http://denza.github.io 
+
+# Gems
+gems:
+  - jekyll-paginate
+
+#Others
+markdown: kramdown
