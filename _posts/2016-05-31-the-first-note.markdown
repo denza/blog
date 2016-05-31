@@ -1,6 +1,7 @@
 ---
 layout: default
 title:  "The first note"
+description: "I am starting to writies notes, or better known as blog."
 date:   2016-05-31 12:50:00
 categories: main
 ---

@@ -1,0 +1,24 @@
+---
+layout: default
+title: Crowder project
+---
+
+<div id="home">
+	<h1>About crowder</h1>
+	<p>crowder project</p>
+	
+	<h1>recent notes about crowder</h1>
+
+	<div class="posts">
+		{% for post in site.posts reversed%}
+		{% if post.categories contains 'crowder' %}
+		<div>
+			<h4><a href="{{ site.baseurl }}{{ post.url }}" >{{ post.title }} - <small>{{ post.date | date_to_string }}</small></a></h4> 
+			{{ post.description }} 
+			<p><a href="{{ site.baseurl }}{{ post.url }}" >Read more</a></p>
+		</div>
+		<br /><br />
+		{% endif %}
+		{% endfor %}
+	</div>
+</div>
