@@ -24,6 +24,7 @@ How it works
 Crowder will recieve a request which will hold information when and where trigger will happend. A trigger can be onetime  or repetitive. A web api can trigger itself or some other web location. 
 
 Other than time and location a web api can provide following:
+
 - submit method (GET,POST etc), 
 - content type (if not defined it will be the same as in the request when crowder is reached)
 - submit body
