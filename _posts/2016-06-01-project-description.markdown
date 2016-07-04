@@ -2,7 +2,7 @@
 layout: default
 title:  "Project description"
 description: "Adding few lines explaing what project is about, motivation and main features"
-date:   2016-05-01 12:50:00
+date:   2016-06-01 12:50:00
 categories: crowder
 ---
 # Crowder - Project description
