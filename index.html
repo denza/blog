@@ -6,7 +6,7 @@ title: {{ site.name }}
 <div id="home">
   <h1>recent notes</h1>
   <div class="posts">
-    {% for post in site.posts reversed%}
+    {% for post in site.posts%}
     <div>
     	<h4><a href="{{ site.baseurl }}{{ post.url }}" >{{ post.title }} - <small>{{ post.date | date_to_string }}</small></a></h4> 
     	{{ post.description }} 
