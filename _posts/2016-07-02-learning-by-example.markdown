@@ -16,7 +16,7 @@ Rack is accepted and used by Rails and all alternatives. It is well known that r
 
 That been said I would say rack is the best example you can find for ruby.
 
-Friend of mine point to me very excelent way to see how rack is builded. Idea is called git walk. It is a simple script which allows you to move throught git commits.
+Friend of mine point to me excelent way to see how rack is builded. Idea is called git walk. It is a simple script which allows you to move throught git commits.
 
 A simple instructions would be:
 
