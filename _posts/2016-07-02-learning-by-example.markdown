@@ -21,8 +21,8 @@ Friend of mine pointed to me excellent way to see how rack is built. The idea is
 A simple instructions would be:
 
 - First step is clone rack source from github (https://github.com/rack/rack).
-- Second step is to find init commit hash. You can find it yourself or just use it. 'git rev-parse --verify HEAD' or '2cb9430fce32da2f2dbccf9de97ab691351c1408'
-- Third would be to do 'git checkout 2cb9430fce32da2f2dbccf9de97ab691351c1408' and set rack project at the begining of time.
+- Second step is to find init commit hash. You can find it yourself or just use it. 'git rev-list --parents HEAD | egrep "^[a-f0-9]{40}$"' or '22f015e82b6c707f8887c6c951a300f597e0d877'
+- Third would be to do 'git checkout 22f015e82b6c707f8887c6c951a300f597e0d877' and set rack project at the begining of time.
 - Forth would be to get a script which allows moving forward and back. I put gist https://gist.github.com/denza/376400382d334d41e20cb71ffdc3ab3d for preservation purpose.
 - Other steps are move forward in the future and inspect changes the team has made in your favorite editor. 
 
